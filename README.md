@@ -10,7 +10,7 @@ Welcome to my **JourneyToCP**! This repository tracks my journey in competitive 
 
 ## Repository Structure
 
-Each contest is organized into its own folder, named by the contest name and date (e.g., `LeetCode-Contest-2025-03-01`). The folder contains:
+Each contest is organized into its own folder, named by the date (e.g., `LeetCode-Contest-2025-03-01`). The folder contains:
 
 - Contest problem descriptions
 - My solution code for each problem
