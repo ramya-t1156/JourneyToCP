@@ -1,0 +1,17 @@
+class Solution {
+    public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
+
+        int remains = fruits.length;
+        int i = 0 , j = 0;
+        for(i = 0;i<fruits.length;i++){
+            for(j = 0;j<baskets.length;j++){
+                if(baskets[j]!=-1 &&  fruits[i]<=baskets[j]){
+                    remains--;
+                    baskets[j] = -1;
+                    break;
+                }
+            }
+        }
+        return remains;
+    }
+}
